@@ -1,6 +1,6 @@
 const express = require ('express')   //file js untuk pake express
 const { Pool, Connection } = require('pg')
-const pool = require("./connection.js")
+const pool = require("./connection")
 const cors = require('cors')
 const app = express() // buat servernys 
 const port = 3000 // define port

@@ -7,7 +7,7 @@ function App() {
   const[dataFoods, setDataFoods]  = useState([])
 
   async function getData() {
-    const url = "http://localhost:3000/foods";
+    const url = "https://aquatic-polar-society.glitch.me/foods";
     try {
       const response = await fetch(url);
       if (!response.ok) {
